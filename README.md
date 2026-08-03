@@ -9,9 +9,11 @@ https://taskflow-app-smoky.vercel.app/
 
 ---
 
-## 📸 Project Preview
+##  Project Preview
 
 ![TaskFlow Preview](assets/taskflow-preview.png)
+---
+![TaskFlow Preview](assets/mainpage-preview.png)
 
 ---
 
@@ -24,13 +26,13 @@ https://taskflow-app-smoky.vercel.app/
 - User-specific task management
 
 ### 📋 Task Management
-- ➕ Create new tasks
-- 👀 View existing tasks
-- ✏️ Edit task details
-- 🗑️ Delete tasks
+-  Create new tasks
+-  View existing tasks
+-  Edit task details
+-  Delete tasks
 - ✅ Mark tasks as completed
 
-### 🏷️ Task Organization
+###  Task Organization
 Each task can contain:
 
 - Task title
@@ -55,7 +57,7 @@ Tasks can be easily organized using:
 - Status filtering
 - Priority filtering
 
-### 📱 Responsive Design
+###  Responsive Design
 
 TaskFlow is designed to work across:
 
@@ -81,7 +83,7 @@ This makes it easier to track the progress of individual tasks.
 
 ---
 
-## 🚦 Priority Management
+##  Priority Management
 
 Tasks can be categorized based on their importance:
 
@@ -114,7 +116,7 @@ Tasks can be categorized based on their importance:
 
 ---
 
-## 🏗️ Application Architecture
+##  Application Architecture
 
 TaskFlow follows a structured full-stack architecture:
 
@@ -210,7 +212,7 @@ taskflow/
 
 ---
 
-## 🚀 Running the Project Locally
+##  Running the Project Locally
 
 ### 1. Clone the repository
 
@@ -308,22 +310,22 @@ TaskFlow currently focuses on providing a clean and manageable task management e
 
 Possible future improvements include:
 
-- 🔔 Task reminders and notifications
-- 👥 Team collaboration
-- 👤 Task assignment between users
-- ⚡ Real-time updates using WebSockets
-- 📊 Advanced productivity analytics
-- 🏷️ Custom task categories/tags
-- 🔁 Recurring tasks
-- 📅 Calendar integration
-- 🐳 Docker containerization
-- ☁️ Extended cloud deployment
+- Task reminders and notifications
+-  Team collaboration
+-  Task assignment between users
+-  Real-time updates using WebSockets
+-  Advanced productivity analytics
+-  Custom task categories/tags
+-  Recurring tasks
+-  Calendar integration
+-  Docker containerization
+-  Extended cloud deployment
 
 These features are intentionally kept as future improvements so that the current version remains focused on the core full-stack concepts.
 
 ---
 
-## 🎓 Internship Project
+##  Internship Project
 
 This application was developed as part of an internship assignment with the objective of building a:
 
