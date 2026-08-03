@@ -1,3 +1,4 @@
+
 # TaskFlow - Task Management Web Application
 
 TaskFlow is a secure, responsive full-stack task management web application developed as part of an internship project. It allows users to create, update, track, search, and filter personal tasks while enforcing user-based authorization and clean layered architecture.
@@ -72,3 +73,8 @@ cd backend
 mvn spring-boot:run
 ```
 Open `frontend/index.html` or serve via your preferred static file server.
+
+
+# Developed by Prathvi using Suryansh's computer 🧑‍💻
+ 
+>If you liked this project , please consider giving a star! ⭐
