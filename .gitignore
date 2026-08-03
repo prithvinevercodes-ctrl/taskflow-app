@@ -1,0 +1,8 @@
+# Local / IDE files
+.DS_Store
+*.log
+.vercel
+target/
+.idea/
+*.class
+__pycache__/

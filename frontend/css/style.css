@@ -1,0 +1,153 @@
+/* ==========================================================================
+   TaskFlow Custom Styling & Design Tokens
+   Handcrafted, professional, clean layout matching internship requirements.
+   ========================================================================== */
+
+:root {
+    --tf-font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    --tf-primary: #4f46e5;
+    --tf-primary-hover: #4338ca;
+    --tf-bg-light: #f8fafc;
+    --tf-card-bg: #ffffff;
+    --tf-text-dark: #0f172a;
+    --tf-text-muted: #64748b;
+    --tf-border-color: #e2e8f0;
+
+    /* Status Colors */
+    --tf-todo-bg: #f1f5f9;
+    --tf-todo-text: #475569;
+    
+    --tf-progress-bg: #e0f2fe;
+    --tf-progress-text: #0369a1;
+    
+    --tf-completed-bg: #dcfce7;
+    --tf-completed-text: #15803d;
+
+    /* Priority Colors */
+    --tf-priority-high-bg: #fee2e2;
+    --tf-priority-high-text: #b91c1c;
+
+    --tf-priority-med-bg: #fef3c7;
+    --tf-priority-med-text: #b45309;
+
+    --tf-priority-low-bg: #f1f5f9;
+    --tf-priority-low-text: #475569;
+}
+
+body {
+    font-family: var(--tf-font-family);
+    background-color: var(--tf-bg-light) !important;
+    color: var(--tf-text-dark);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Typography & Utility */
+.style-xs {
+    font-size: 0.75rem;
+}
+
+.max-w-md {
+    max-width: 480px;
+}
+
+/* Custom Buttons */
+.btn-primary {
+    background-color: var(--tf-primary) !important;
+    border-color: var(--tf-primary) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--tf-primary-hover) !important;
+    border-color: var(--tf-primary-hover) !important;
+}
+
+/* Auth Section */
+.auth-wrapper {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.auth-wrapper .card {
+    border: 1px solid var(--tf-border-color);
+}
+
+/* Navbar */
+.navbar-dark.bg-dark {
+    background-color: #0f172a !important;
+}
+
+/* Stat Cards */
+.stat-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+}
+
+/* Task Cards */
+.task-card {
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: 1px solid var(--tf-border-color);
+}
+
+.task-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04) !important;
+}
+
+.task-card.is-completed {
+    border-left: 4px solid #22c55e !important;
+}
+
+.task-card.is-in-progress {
+    border-left: 4px solid #0ea5e9 !important;
+}
+
+.task-card.is-todo {
+    border-left: 4px solid #94a3b8 !important;
+}
+
+/* Badges */
+.badge-status-TODO {
+    background-color: var(--tf-todo-bg);
+    color: var(--tf-todo-text);
+}
+
+.badge-status-IN_PROGRESS {
+    background-color: var(--tf-progress-bg);
+    color: var(--tf-progress-text);
+}
+
+.badge-status-COMPLETED {
+    background-color: var(--tf-completed-bg);
+    color: var(--tf-completed-text);
+}
+
+.badge-priority-HIGH {
+    background-color: var(--tf-priority-high-bg);
+    color: var(--tf-priority-high-text);
+}
+
+.badge-priority-MEDIUM {
+    background-color: var(--tf-priority-med-bg);
+    color: var(--tf-priority-med-text);
+}
+
+.badge-priority-LOW {
+    background-color: var(--tf-priority-low-bg);
+    color: var(--tf-priority-low-text);
+}
+
+/* Form Controls */
+.form-control:focus, .form-select:focus {
+    border-color: var(--tf-primary);
+    box-shadow: 0 0 0 0.25rem rgba(79, 70, 229, 0.15);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
